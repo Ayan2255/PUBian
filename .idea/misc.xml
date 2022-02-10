@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/bg.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/button_color.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/button_color2.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/corner.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/edit_text_backgrawond.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/home_classroom.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/ic_baseline_accessibility_24.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/ic_classroom__1_.xml" value="0.264" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/ic_icons8_facebook.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/ic_icons8_google.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/ic_results_icon_png_17973.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/man_icon.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/pupc_logo.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/shap.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/singin_button_backgrawnd.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/singin_edit_text_backgraownd.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/singin_email_icon.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/drawable/sms__bg.xml" value="0.23958333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_admin.xml" value="0.2" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_admin_home.xml" value="0.11865942028985507" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_admin_login.xml" value="0.19384057971014493" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_curret_location.xml" value="0.1644021739130435" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_main.xml" value="0.1015625" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_message.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_notice_sent.xml" value="0.1" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_profle.xml" value="0.19384057971014493" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_prothom_alo.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_pub.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_pupc.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_pupc_data_sent.xml" value="0.16077898550724637" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_pupc_get_data.xml" value="0.14764492753623187" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_pusc.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_pusc_get_data.xml" value="0.14764492753623187" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_pusc_sent_data.xml" value="0.16077898550724637" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_result.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_routine.xml" value="0.20208333333333334" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_set_bua_time.xml" value="0.1956521739130435" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_set_bus_time.xml" value="0.1956521739130435" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_show_bus_time.xml" value="0.17798913043478262" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_show_sub.xml" value="0.14764492753623187" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_singin.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_singup.xml" value="0.128" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_sms.xml" value="0.17255434782608695" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/activity_student_login.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/fragment_all_routine.xml" value="0.28122912491649965" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/fragment_chats.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/fragment_day_routine.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/fragment_present_routine.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/fragment_text.xml" value="0.14764492753623187" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/resorsefile.xml" value="0.16666666666666666" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/resourse_sub.xml" value="0.14764492753623187" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/routine_recycle_view.xml" value="0.15443840579710144" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/sample_show_user.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/sms_bg.xml" value="0.16077898550724637" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/layout/viw_custom_marker.xml" value="0.25" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/menu/map_options.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/menu/menu.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/xml/net.xml" value="0.21927083333333333" />
+        <entry key="..\:/SentDATA/whatsapp/app/src/main/res/xml/network.xml" value="0.21927083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

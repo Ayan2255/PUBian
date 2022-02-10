@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Admin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="#878080"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Saturday"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/sub1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="9:30  to 10:45"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Sat_9.30_to_10.45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/sub2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="10:45 to 12:00"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Sat_10.45_to_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="12:00 to 01:15"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Sat_12_to_1.15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="02:30 to 03:45"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Sat_02.30_to_3.45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="03:45 to 04:00 "
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Sat_3.45_to_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="04:00 to 05:15"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Sat_4_to_5.15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="#878080"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="sunday"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="9:30  to 10:45"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Sun_9.30_to_10.45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="10:45 to 12:00"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/sun_10.45_to_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="12:00 to 01:15"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Sun_12_to_1.15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="02:30 to 03:45"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Sun_02.30_to_3.45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="03:45 to 04:00 "
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Sun_3.45_to_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="04:00 to 05:15"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Sun_4_to_5.15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="#878080"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Monday"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="9:30  to 10:45"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Mon_9.30_to_10.45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="10:45 to 12:00"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Mon_10.45_to_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="12:00 to 01:15"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Mon_12_to_1.15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="02:30 to 03:45"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Mon_02.30_to_3.45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="03:45 to 04:00 "
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Mon_3.45_to_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="04:00 to 05:15"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Mon_4_to_5.15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="#878080"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Tuesday"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="9:30  to 10:45"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Tue_9.30_to_10.45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="10:45 to 12:00"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Tue_10.45_to_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="12:00 to 01:15"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Tue_12_to_1.15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="02:30 to 03:45"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Tue_02.30_to_3.45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="03:45 to 04:00 "
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Tue_3.45_to_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="04:00 to 05:15"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Tue_4_to_5.15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1"
+                        android:background="#878080"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="Wednesday"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="9:30  to 10:45"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Wed_9.30_to_10.45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="10:45 to 12:00"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Wed_10.45_to_12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="12:00 to 01:15"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Wed_12_to_1.15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="02:30 to 03:45"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Wed_02.30_to_3.45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="03:45 to 04:00 "
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Wed_3.45_to_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="#00BCD4"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="04:00 to 05:15"
+                        android:textColor="#283593" />
+
+                    <TextView
+                        android:id="@+id/Wed_4_to_5_15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textPersonName"
+                        android:padding="2dp"
+                        android:textColor="#FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:text="Enter Subject Name" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

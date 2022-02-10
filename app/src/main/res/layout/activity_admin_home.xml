@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#060606"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Admin_Home">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Set_Bus_Time"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/singin_button_backgrawnd"
+                android:clickable="false"
+                android:duplicateParentState="false"
+                android:fontFamily="sans-serif"
+                android:padding="4dp"
+                android:text="Set Bus Time"
+                android:textColor="#FCF9F9"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/Set_Routine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shap"
+                android:clickable="false"
+                android:duplicateParentState="false"
+                android:fontFamily="sans-serif"
+                android:padding="4dp"
+                android:text="Set Routine"
+                android:textColor="#FCFCFC"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Sent_PUPC_Notice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shap"
+                android:clickable="false"
+                android:duplicateParentState="false"
+                android:fontFamily="sans-serif"
+                android:padding="4dp"
+                android:text="PUPC Notice"
+                android:textColor="#FCF9F9"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/Sent_PUSC_Notice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/singin_button_backgrawnd"
+                android:clickable="false"
+                android:duplicateParentState="false"
+                android:fontFamily="sans-serif"
+                android:padding="4dp"
+                android:text="PUSC Notice"
+                android:textColor="#FCF9F9"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/SentNotice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/singin_edit_text_backgraownd"
+            android:clickable="false"
+            android:duplicateParentState="false"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="Sent  Notice"
+            android:textColor="#FEFEFE"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

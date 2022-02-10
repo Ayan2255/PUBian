@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.whatsapp">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".OfflineFirebase"
+        android:allowBackup="true"
+        android:icon="@drawable/classroom"
+        android:label="PUBian"
+        android:roundIcon="@drawable/classroom"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WhatsApp"
+        android:usesCleartextTraffic="true">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+
+
+        <activity
+            android:name=".Show_bus_time"
+            android:exported="false" />
+        <activity
+            android:name=".Profle_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Show_sub"
+            android:exported="false" />
+        <activity
+            android:name=".PUPC_Get_data"
+            android:exported="false" />
+        <activity
+            android:name=".PUSC_get_data"
+            android:exported="false" />
+        <activity
+            android:name=".PUSC_sent_data"
+            android:exported="false" />
+        <activity
+            android:name=".PUPC_Data_Sent"
+            android:exported="false" />
+        <activity
+            android:name=".SMS"
+            android:exported="false" />
+        <activity
+            android:name=".Notice_Sent"
+            android:exported="false" />
+        <activity
+            android:name=".Set_Bua_Time"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Home"
+            android:exported="false" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".PUPC"
+            android:exported="false" />
+        <activity
+            android:name=".PUSC"
+            android:exported="false" />
+        <activity
+            android:name=".Prothom_alo"
+            android:exported="false" />
+        <activity
+            android:name=".PUB"
+            android:exported="false" />
+        <activity
+            android:name=".Result"
+            android:exported="false" />
+        <activity
+            android:name=".StudentLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Message"
+            android:exported="true" />
+        <activity
+            android:name=".Routine"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".Singin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Singup"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

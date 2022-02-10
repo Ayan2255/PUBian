@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "816501186230",
+    "project_id": "classroom2-a594a",
+    "storage_bucket": "classroom2-a594a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816501186230:android:fd72e2b2e875af91ef1017",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816501186230-cpga2g14286nc2t1llm6n9fvtvi0qpe3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANnigvZfYr_YNsorBUv62Ifr40zZEqdxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816501186230-cpga2g14286nc2t1llm6n9fvtvi0qpe3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

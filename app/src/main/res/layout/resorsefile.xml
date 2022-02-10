@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".SMS">
+
+    <TextView
+        android:id="@+id/sss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/sms__bg"
+        android:fontFamily="sans-serif"
+        android:gravity="center|top"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textColor="#090808"
+        android:textSize="20sp" />
+</LinearLayout>

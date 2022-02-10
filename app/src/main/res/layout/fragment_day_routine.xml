@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070707"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragment.Day_routine">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Day_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/shap"
+            android:fontFamily="@font/alegreya"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="#00BCD4"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/frist_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/singin_button_backgrawnd"
+            android:fontFamily="@font/alegreya"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="#FFD27F"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/sd_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/singin_button_backgrawnd"
+            android:fontFamily="@font/alegreya"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="#FFD27F"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/trd_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/singin_button_backgrawnd"
+            android:fontFamily="@font/alegreya"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="TextView"
+            android:textColor="#FFD27F"
+            android:textSize="48sp" />
+    </LinearLayout>
+</LinearLayout>
