@@ -367,6 +367,7 @@
                 android:layout_columnWeight="1"
                 android:layout_margin="10dp"
                 android:elevation="6dp"
+                android:layout_marginBottom="50dp"
                 app:cardCornerRadius="12dp">
 
                 <LinearLayout
@@ -383,6 +384,8 @@
                         android:layout_height="70dp"
                         android:layout_gravity="center"
                         android:background="#2D2D2D"
+
+
                         android:src="@drawable/bus"></ImageView>
 
                     <TextView
@@ -404,6 +407,7 @@
                 android:layout_columnWeight="1"
                 android:layout_margin="10dp"
                 android:elevation="6dp"
+                android:layout_marginBottom="50dp"
                 app:cardCornerRadius="12dp">
 
                 <LinearLayout
